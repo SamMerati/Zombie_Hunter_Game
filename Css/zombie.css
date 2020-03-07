@@ -1,0 +1,69 @@
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+#score {
+    position: absolute;
+    left: 50%;
+    top: 20;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-image: url('../Images/background.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#idKenny {
+    display: none;
+    width: 20vw;
+    height: 18vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#idOsama{
+    display: none;
+    width: 7vw;
+    height: 22vh;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#startButton {
+    background-color: yellow;
+    font-size: 2vh;
+    width: 13.5vw;
+    height: 6vh;
+    border: 0.3vh black solid;
+    border-radius: 3vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#endGame {
+    background-color: yellow;
+    font-size: 2vh;
+    width: 13.5vw;
+    height: 6vh;
+    border: 0.3vh black solid;
+    border-radius: 3vh;
+    display: none;
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+
+}

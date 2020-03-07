@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="Js/zombie.js"></script>
+    <link rel="stylesheet" href="Css/zombie.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kill Kenny!</title>
+  </head>
+  <body>
+    <h1>
+      Score:
+      <p id="score">0</p>
+    </h1>
+
+    <img onclick="handler1()" id="idKenny" src="Images/kenny.png" />
+    <img onclick="handler2()" id="idOsama" src="Images/Osama.png" />
+
+    <audio id="bgMusic">
+      <source src="src/southPark.mp3" type="audio/mpeg" />
+      audio not supported
+    </audio>
+
+    <audio id="explosion">
+      <source src="src/explosion.mp3" type="audio/mpeg" />
+      audio not supported
+    </audio>
+
+    <audio id="gunshot">
+      <source src="src/gunshot.mp3" type="audio/mpeg" />
+      audio not supported
+    </audio>
+    <button onclick="onStart()" id="startButton">Start Game</button>
+    <button onclick="onEnd()" id="endGame">End Game</button>
+  </body>
+</html>
