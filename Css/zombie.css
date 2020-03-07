@@ -21,8 +21,8 @@ body {
 
 #idKenny {
     display: none;
-    width: 20vw;
-    height: 18vh;
+    width: 200px;
+    height: 120px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -30,8 +30,8 @@ body {
 }
 #idOsama{
     display: none;
-    width: 7vw;
-    height: 22vh;
+    width: 80px;
+    height: 180px;
     position: absolute;
     left: 30%;
     top: 50%;
@@ -42,10 +42,10 @@ body {
 #startButton {
     background-color: yellow;
     font-size: 2vh;
-    width: 13.5vw;
-    height: 6vh;
+    width: 120px;
+    height: 40px;
     border: 0.3vh black solid;
-    border-radius: 3vh;
+    border-radius: 15px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -56,8 +56,8 @@ body {
 #endGame {
     background-color: yellow;
     font-size: 2vh;
-    width: 13.5vw;
-    height: 6vh;
+    width: 120px;
+    height: 40px;
     border: 0.3vh black solid;
     border-radius: 3vh;
     display: none;
