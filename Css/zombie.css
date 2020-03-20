@@ -28,6 +28,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
 #idOsama{
     display: none;
     width: 80px;
@@ -37,7 +38,6 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 #startButton {
     background-color: yellow;
@@ -50,7 +50,6 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 #endGame {
@@ -65,5 +64,4 @@ body {
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, -50%);
-
 }
