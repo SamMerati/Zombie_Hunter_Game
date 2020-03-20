@@ -12,6 +12,7 @@ const CHANGE_TIMER = 2000;
 const DYING_TIME = 800;
 const DYING_TIME2 = 800;
 
+
 //Handler for Kenny.
 function handler1() {
 
@@ -31,6 +32,7 @@ function handler1() {
     }, DYING_TIME);
 }
 
+
 //Moves the Kenny Image.
 function moveKenny() {
     let window_height = window.innerHeight;
@@ -46,6 +48,7 @@ function moveKenny() {
     document.getElementById("idKenny").style.top = (Math.random() * (window_height - imgHeight) + (halfHeight)) + "px";
 }
 
+
 //Kills Kenny.
 function killKenny() {
     document.getElementById("idKenny").src = "Images/blood.png";
@@ -53,10 +56,12 @@ function killKenny() {
     gunshot.play();
 }
 
+
 //Revives Kenny.
 function birthKenny() {
     document.getElementById("idKenny").src = "Images/kenny.png";
 }
+
 
 //Handler for Osama.
 function handler2() {
@@ -77,6 +82,7 @@ function handler2() {
     }, DYING_TIME2);
 }
 
+
 //Moves Osama.
 function moveOsama() {
     let window_height2 = window.innerHeight;
@@ -92,6 +98,7 @@ function moveOsama() {
     document.getElementById("idOsama").style.top = (Math.random() * (window_height2 - imgHeight2) + (halfHeight2)) + "px";
 }
 
+
 //Kills Osama.
 function killOsama() {
     document.getElementById("idOsama").src = "Images/explosion.gif";
@@ -99,15 +106,18 @@ function killOsama() {
     explosion.play();
 }
 
+
 //Revives Osama.
 function birthOsama() {
     document.getElementById("idOsama").src = "Images/Osama.png";
 }
 
+
 //End Button
 function onEnd() {
     location.reload();
 }
+
 
 //Score Counter.
 function scoreCounter() {
@@ -115,6 +125,7 @@ function scoreCounter() {
     score++;
     document.getElementById("score").innerHTML = score;
 }
+
 
 //Start Button clicked.
 function onStart() {
